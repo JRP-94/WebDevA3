@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+.hero-section {
+  margin: 1rem;
+  padding: 1rem;
+
+  width: 35%;
+  height: 75%;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-section * {
+  margin: 1rem;
+  padding: 0.25rem;
+}
+
+.hero {
+  margin: 0;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  position: absolute;
+  top: 0%;
+  width: 100vw;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../resources/img/background.jpg");
+  background-size: cover;
+  text-transform: uppercase;
+
+  display: block;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.hero-text-container {
+  position: relative;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
+
+.hero-text-container h1 {
+  font-size: 4rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+}
+
+@media screen and (max-width: 12000px) {
+  .hero-text-container h1 {
+    font-size: 3rem;
+  }
+
+  .text-container p {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    margin: 1rem;
+    padding: 1rem;
+
+    width: 40vw;
+    height: 75%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero-text-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text-container p {
+    font-size: 0.75rem;
+  }
+
+  /* Nasa. “Photo by NASA on UNSPLASH.” Beautiful Free Images &amp; Pictures, February 6, 2016. https://unsplash.com/photos/Yj1M5riCKk4. */
+  .hero {
+    position: absolute;
+    top: 0%;
+    width: 100vw;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../resources/img/background.jpg");
+    background-size: cover;
+
+    display: block;
+  }
+
+  nav * {
+    margin: 0.5rem 0.5rem;
+    padding: 0.15rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .hero-text-container {
+    position: relative;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 0 100px 100px rgba(0, 0, 0, 0.15);
+    color: #fff;
+  }
+
+  .hero-section {
+    margin: 1rem;
+    padding: 1rem;
+
+    width: 90%;
+    height: 75%;
+    text-align: center;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+  }
+
+  .scroll-button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+  }
+}
